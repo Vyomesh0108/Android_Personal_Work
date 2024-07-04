@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etn1"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="50sp"
+        android:hint="ENTER NO1 : "
+        android:textSize="25sp"> </EditText>
+
+    <EditText
+        android:id="@+id/etn2"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="130sp"
+        android:layout_marginLeft="50sp"
+        android:hint="ENTER NO2 : "
+        android:textSize="25sp"> </EditText>
+    
+
+    <Button
+        android:id="@+id/btplus"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="220sp"
+        android:layout_marginLeft="60sp"
+        android:text="+"
+        android:textSize="45sp">
+    </Button>
+
+    <Button
+        android:id="@+id/btmin"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="220sp"
+        android:layout_marginLeft="220sp"
+        android:text="-"
+        android:textSize="45sp">
+    </Button>
+
+    <Button
+        android:id="@+id/btmul"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="320sp"
+        android:layout_marginLeft="60sp"
+        android:text="*"
+        android:textSize="45sp">
+    </Button>
+
+    <Button
+        android:id="@+id/btdiv"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="320sp"
+        android:layout_marginLeft="220sp"
+        android:text="/"
+        android:textSize="45sp">
+    </Button>
+
+
+</RelativeLayout>

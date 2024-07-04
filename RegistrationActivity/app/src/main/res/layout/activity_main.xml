@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:inputType="textPersonName"
+        android:id="@+id/etname"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:hint="Enter Gender"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:id="@+id/etgen"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:hint="Enter Email"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etema"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:hint="Enter Mobile no"
+        android:textSize="20sp"
+        android:inputType="phone"
+        android:id="@+id/etmob"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:hint="Enter Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:id="@+id/etpass"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:hint="Enter Hobbie 1"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:id="@+id/ethob1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:hint="Enter Hobbie 2"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:id="@+id/ethob2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:hint="Enter Hobbie 3"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:id="@+id/ethob3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:hint="Enter Hobbie 4"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:id="@+id/ethob4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="13sp"
+        android:textSize="20sp"
+        android:id="@+id/reg"/>
+
+</LinearLayout>

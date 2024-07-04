@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/birds"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etmrk1"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:hint="ENTER MARKS OF 1"
+        android:textSize="30sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="50sp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etmrk2"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:hint="ENTER MARKS OF 2"
+        android:textSize="30sp"
+        android:layout_marginTop="130sp"
+        android:layout_marginLeft="50sp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etmrk3"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:hint="ENTER MARKS OF 3"
+        android:textSize="30sp"
+        android:layout_marginTop="210sp"
+        android:layout_marginLeft="50sp">
+    </EditText>
+
+    <Button
+        android:id="@+id/btper"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:text="PERCENTAGE/GRADE"
+        android:textSize="25sp"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="50sp">
+    </Button>
+
+</RelativeLayout>

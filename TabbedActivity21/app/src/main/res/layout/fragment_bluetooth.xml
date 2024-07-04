@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff4500"
+    tools:context=".BluetoothFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvFirst"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="50sp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:text="My First Fragment" />
+
+
+    <Button
+        android:id="@+id/bton"
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="50sp"
+        android:textSize="15sp"
+        android:text="BLUETOOTH ON"></Button>
+
+    <Button
+        android:id="@+id/btoff"
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="50sp"
+        android:textSize="15sp"
+        android:text="BLUETOOTH OFF"></Button>
+
+
+</FrameLayout>

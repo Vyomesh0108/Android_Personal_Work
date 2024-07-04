@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE5D9"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".register">
+
+
+    <TextView
+        android:id="@+id/tvregister"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Register"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:hint="Email"
+        android:paddingStart="20sp"
+        android:textSize="30sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:paddingStart="20sp"
+        android:textSize="30sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:hint="Name"
+        android:paddingStart="20sp"
+        android:textSize="30sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:hint="Phone No"
+        android:paddingStart="20sp"
+        android:textSize="30sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etadd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:hint="Address"
+        android:paddingStart="20sp"
+        android:textSize="30sp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="20sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btReg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:background="@drawable/registerbutton"
+            android:textSize="20sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btCan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="10sp"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:background="@drawable/registerbutton"
+            android:textSize="20sp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

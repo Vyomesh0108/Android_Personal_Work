@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GtuTab</string>
+    <string name="tab_text_1">BLUETOOTH</string>
+    <string name="tab_text_2">WIFI</string>
+    <string name="tab_text_3">BATTERY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
